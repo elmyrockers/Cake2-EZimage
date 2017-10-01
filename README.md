@@ -11,9 +11,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 3. Copy 'controller' folder then put that to the root of your project folder.
 	Example: /your_project/app/Controller/Component/EZimageComponent.php
 
+
 ### How To Use This Component?
 
-Add 'EZimage' to the $components property, whether on your controller or AppController just like below:
+Add 'EZimage' to the $components property, whether on your Controller or AppController just like below:
+
 ```
 <?php
 class ProjectController extends AppController
