@@ -20,8 +20,30 @@ class ProjectController extends AppController
 ```
 
 ### How To Use This Component?
+```
+	$this->EZimage->upload( $uploadData, $uploadDir, $filename = NULL, $returnObject = FALSE );
+	$this->EZimage->file( $filepath )->crop( $width, $height, $x, $y )->save( $outputDir, $returnObject );
+	$this->EZimage->file( $filepath )
+				  ->cropAtCenter( $width, $height, $x, $y )
+				  ->resize( $width, $height, $proportional )
+				  ->save( $outputDir, $returnObject );
+```
 
-Add 'EZimage' to the $components property, whether on your Controller or AppController just like below:
+### Reference
+- initialize(Controller $controller )
+
+- upload( $uploadData, $uploadDir, $filename = NULL, $returnObject = FALSE )
+- file( $filepath )
+
+- crop( $width = 0, $height = 0, $x = 0, $y = 0 )
+- cropAtCenter( $width = 0, $height = 0 )
+- resize( $width = 0, $height = 0, $proportional = TRUE )
+- watermark( $watermarkImage = NULL, $marginRight = 5, $marginBottom = 5 )
+
+- save( $outputDir = NULL, $returnObject = FALSE )
+- rollback()
+- display()
+- getError()
 
 
 
@@ -44,19 +66,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-hahaha ahaha hahaa aku cuba mengubah sesuatu
-```
-<html>
-  <body>
-    <h1>I like it...Thanks...</h1>
-  </body>
-</html>
-```
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elmyrockers/EZImage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
