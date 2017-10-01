@@ -6,9 +6,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### How To Install?
 
-1. Download the component on this link [click this to dowload](https://github.com/elmyrockers/EZimage/archive/master.zip) 
-2. Extract the zip file using your compressed tool like 7Zip,Winrar or winzip
-3. Copy 'controller' folder then put that to the root of your project folder.
+1. Download the component by click to this link [*Download EZimageComponent*](https://github.com/elmyrockers/EZimage/archive/master.zip) 
+2. Extract the zip file using your compression tool like 7Zip,Winrar or Winzip
+3. Copy 'Controller' folder then put that to the root of your project folder.
 	Example: /your_project/app/Controller/Component/EZimageComponent.php
 
 
