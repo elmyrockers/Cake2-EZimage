@@ -4,15 +4,23 @@ You can use the [editor on GitHub](https://github.com/elmyrockers/EZImage/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Usage
+### How To Install?
 
+1. Download the repository on this link [link to download EZimage Component](https://github.com/elmyrockers/EZimage/archive/master.zip) 
+2. Extract the zip file using your compressed tool like 7Zip,Winrar or winzip
+3. Copy 'controller' folder then put that to the root of your project folder.
+	Example: /your_project/app/Controller/Component/EZimageComponent.php
+
+### How To Use This Component?
+
+Add 'EZimage' to the $components property, whether on your controller or AppController just like below:
 ```
 <?php
 class ProjectController extends AppController
 {
 	public $components = array( 'EZimage' );
-
 }
+?>
 ```
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
