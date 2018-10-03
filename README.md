@@ -1,9 +1,8 @@
-![GitHub package version](https://img.shields.io/github/package-json/v/badges/shields.svg)
+![GitHub tag](https://img.shields.io/github/tag/elmyrockers/EZimage.svg)
 ![CakePHP version](https://img.shields.io/badge/cakephp-v2.x-blue.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/elmyrockers/EZimage.svg)
 [![GitHub license](https://img.shields.io/github/license/elmyrockers/EZimage.svg)](https://github.com/elmyrockers/EZimage/blob/master/LICENSE)
 ![Code Climate](https://img.shields.io/codeclimate/issues/elmyrockers/EZimage.svg)
-
 
 ## EZimage - Image Component For CakePHP
 
