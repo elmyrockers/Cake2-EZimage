@@ -1,3 +1,6 @@
+
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 ## EZimage - Image Component For CakePHP
 
 Easy image manipulation component for CakePHP just like QImage... It is replacement... It can crop, resize, watermark and save or display the processed image directly to the browser... 
